@@ -1,0 +1,293 @@
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.h2{
+  margin-left: center;
+}
+.g{
+  margin-left:520px;
+}
+.q{
+ margin-top: 5px;
+ font-size: 65px;
+ 
+}
+/* Header Styles */
+header {
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.service {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.service img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h1  {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Call to Action Styles */
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.cta button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section Styles */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feature h2 {
+  font-size: 24px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+/* About Section Styles */
+.about {
+  margin-top: 50px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #004d26;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+/* Testimonial Section Styles */
+.testimonials {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonial {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Contact Section Styles */
+.contact {
+  margin-top: 50px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.btn{
+  font-size: 18px;
+  border: none;
+  background-color: #969696;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #007914;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 28px;
+  }
+
+  header p {
+      font-size: 16px;
+  }
+
+  .feature {
+      margin-bottom: 20px;
+  }
+
+  .about h2 {
+      font-size: 20px;
+  }
+
+  .about p {
+      font-size: 14px;
+  }
+
+  .testimonial {
+      margin-bottom: 15px;
+  }
+
+  .testimonial p {
+      font-size: 14px;
+  }
+
+  .testimonial-author {
+      font-size: 12px;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Additional CSS for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+      padding: 50px 0;
+  }
+
+  .service img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+
+  h3 {
+      font-size: 18px;
+  }
+}
